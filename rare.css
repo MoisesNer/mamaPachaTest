@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+
+}
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+.typo{
+    display: flex;
+    align-self: center;
+}
+  .pacha{
+      width: 100%;
+      font-size: 500px;
+      text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    color: yellow;
+    background-color: black;
+
+  }
