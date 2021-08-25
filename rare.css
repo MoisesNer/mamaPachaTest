@@ -1,29 +1,58 @@
 *{
     margin: 0;
     padding: 0;
+
 }
+html, body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .container{
     width: 100%;
     height: 100vw;
     overflow: hidden;
-    
-}
-.ball {
+    background-color: black;
+  }
+  
+  .ball {
     position: absolute;
     border-radius: 100%;
     opacity: 0.7;
   }
-.typo{
-    display: flex;
-    align-self: center;
+  
+  .typo{
+  /* height: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   .pacha{
       width: 100%;
-      font-size: 500px;
+      height: 100%;
+      font-size: 300px;
       text-transform: uppercase;
     text-align: center;
     align-self: center;
     font-family: 'Montserrat', sans-serif;
     color: yellow;
-    background-color: black;
+    margin: auto;
+  }
+
+  @media(max-width: 768px){
+    .pacha{
+        width: 100%;
+        font-size: 100px;
+        text-transform: uppercase;
+      text-align: center;
+      align-self: center;
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(51, 255, 0);
+    } 
+  }
+
+  @media(max-width: 425px){
+    .pacha{
+      font-size: 70px;
+    }
   }
